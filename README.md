@@ -1,10 +1,10 @@
 # number-system-converter
 My final assignment for my Computer Organization and Assembly Language course during my 5th semester at the Autonomous University of Baja California (September - December, 2020). A numeral system converter that allows you to input a decimal, binary or octal number and converts it to decimal, binary, octal and hexadecimal. Written in x86 NASM Assembly in Ubuntu.
 
-The file to assemble is ***conversiones3.asm***. Requires the ***asm_io.inc*** file.  
+The file that I wrote and that has to be assembled is ***conversiones3.asm***. Requires the ***asm_io.inc*** file (which was provided to me by my professor).  
 Assemble the file with `nasm -f elf conversiones3.asm`.
 
-Then create the executable file with `gcc -o conversiones3 conversiones3.o asm_io.o driver.c`. This requires the files ***asm_io.o***, ***driver.c*** and ***cdecl.h***.
+Then create the executable file with `gcc -o conversiones3 conversiones3.o asm_io.o driver.c`. This requires the files ***asm_io.o***, ***driver.c*** and ***cdecl.h*** (all of which were provided to me by my professor).
 
 Finally, execute the program with `./conversiones3`.
 
