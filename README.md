@@ -4,7 +4,7 @@ My final assignment for my Computer Organization and Assembly Language course du
 The file that I wrote and that has to be assembled is [***conversiones3.asm***](conversiones3.asm). Requires [***asm_io.inc***](asm_io.inc) (which was provided to me by my professor).  
 Assemble the file with `nasm -f elf conversiones3.asm`.
 
-Then create the executable file with `gcc -o conversiones3 conversiones3.o asm_io.o driver.c`. This requires [***asm_io.o***](asm_io.o), [***driver.c***](driver.c) and [***cdecl.h***](cdel.h) (all of which were provided to me by my professor).
+Then create the executable file with `gcc -o conversiones3 conversiones3.o asm_io.o driver.c`. This requires [***asm_io.o***](asm_io.o), [***driver.c***](driver.c) and [***cdecl.h***](cdecl.h) (all of which were provided to me by my professor).
 
 Finally, execute the program with `./conversiones3`.
 
